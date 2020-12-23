@@ -1,0 +1,20 @@
+<?php
+return [
+    'name'                     => 'Tên Đăng Nhập',
+    'password'                 => 'Mật Khẩu',
+    'country_code'             => 'Mã quốc gia',
+    'phone'                    => 'Số điện thoại liên lạc',
+    'full_name'                => 'full_Tên Đăng Nhập',
+    'email'                    => 'Địa chỉ Email',
+    'birth_at'                 => 'Ngày sinh',
+    'address'                  => 'Địa chỉ',
+    'other_contact'            => 'Cách liên lạc khác',
+    'referrer_code'            => 'Mã giới thiệu',
+    'odds'                     => 'Tỷ lệ',
+    'gender'                   => 'Giới tính',
+    'security_question'        => 'Câu hỏi bí mật',
+    'security_question_answer' => 'Câu hỏi bí mật_answer',
+    'old_password'             => 'old_Mật Khẩu',
+    'new_password'             => 'new_Mật Khẩu',
+    'platform_code_required'   => 'Quý Khách vui lòng chọn một ví sản phẩm để chuyển khoản tiền thưởng này.',
+];

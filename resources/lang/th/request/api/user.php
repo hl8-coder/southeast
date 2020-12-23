@@ -1,0 +1,20 @@
+<?php
+return [
+    'name'                    => 'ชื่อผู้ใช้งาน',
+    'password'                => 'รหัสผ่าน',
+    'country_code'            => 'รหัสประเทศ',
+    'phone'                   => 'เบอร์ติดต่อ',
+    'full_name'               => 'ชื่อ-สกุล',
+    'email'                   => 'อีเมล์',
+    'birth_at'                => 'วัน เดือน ปี เกิด',
+    'address'                 => 'ที่อยู่',
+    'other_contact'           => 'การติดต่ออื่นๆ',
+    'referrer_code'           => 'รหัสแนะนำ',
+    'odds'                    => 'ค่าน้ำ',
+    'gender'                  => 'เพศ',
+    'security_question'       => 'คำถามเพื่อความปลอดภัย',
+    'security_question_answer' => 'คำตอบเพื่อความปลอดภัย',
+    'old_password'            => 'รหัสผ่านปัจจุบัน',
+    'new_password'            => 'รหัสผ่านใหม่',
+    'platform_code_required'  => 'คุณต้องเลือกกระเป๋าเงินหนึ่งใบเพื่อโอนเงินโบนัส',
+];

@@ -1,0 +1,29 @@
+<?php
+
+$api->get('withdrawals', 'WithdrawalsController@index')->name('backstage.withdrawals.index');
+$api->get('withdrawals/open', 'WithdrawalsController@openIndex')->name('backstage.withdrawals.open_index');
+$api->get('withdrawals/fast', 'WithdrawalsController@fastIndex')->name('backstage.withdrawals.fast_index');
+$api->get('withdrawals/{withdrawal}', 'WithdrawalsController@show')->name('backstage.withdrawals.show');
+$api->patch('withdrawals/{withdrawal}/hold', 'WithdrawalsController@hold')->name('backstage.withdrawals.hold');
+$api->patch('withdrawals/{withdrawal}/release_hold', 'WithdrawalsController@releaseHold')->name('backstage.withdrawals.release_hold');
+$api->patch('withdrawals/{withdrawal}/escalate', 'WithdrawalsController@escalate')->name('backstage.withdrawals.escalate');
+$api->patch('withdrawals/{withdrawal}/rm_approve', 'WithdrawalsController@rmApprove')->name('backstage.withdrawals.rm_approve');
+$api->delete('withdrawals/{withdrawal}', 'WithdrawalsController@reject')->name('backstage.withdrawals.reject');
+$api->patch('withdrawals/{withdrawal}/claim', 'WithdrawalsController@claim')->name('backstage.withdrawals.claim');
+$api->patch('withdrawals/{withdrawal}/unclaim', 'WithdrawalsController@unclaim')->name('backstage.withdrawals.unclaim');
+$api->patch('withdrawals/{withdrawal}/review', 'WithdrawalsController@review')->name('backstage.withdrawals.review');
+$api->patch('withdrawals/{withdrawal}/remark', 'WithdrawalsController@remark')->name('backstage.withdrawals.remark');
+$api->patch('withdrawals/{withdrawal}/process', 'WithdrawalsController@process')->name('backstage.withdrawals.process');
+$api->patch('withdrawals/{withdrawal}/add_records', 'WithdrawalsController@addRecords')->name('backstage.withdrawals.add_records');
+$api->patch('withdrawals/{withdrawal}/defer', 'WithdrawalsController@defer')->name('backstage.withdrawals.defer');
+$api->patch('withdrawals/{withdrawal}/release_defer', 'WithdrawalsController@releaseDefer')->name('backstage.withdrawals.release_defer');
+$api->patch('withdrawals/{withdrawal}/approve', 'WithdrawalsController@approve')->name('backstage.withdrawals.approve');
+$api->patch('withdrawals/{withdrawal}/second_approve', 'WithdrawalsController@secondApprove')->name('backstage.withdrawals.second_approve');
+$api->patch('withdrawals/{withdrawal}/second_reject', 'WithdrawalsController@secondReject')->name('backstage.withdrawals.second_reject');
+$api->post('withdrawals/{withdrawal}/images', 'WithdrawalsController@image')->name('backstage.withdrawals.images.store');
+$api->delete('withdrawals/{withdrawal}/images/{image}', 'WithdrawalsController@removeImage')->name('backstage.withdrawals.images.delete');
+$api->get('withdrawals/{withdrawal}/last_ten', 'WithdrawalsController@lastTenIndex')->name('backstage.withdrawals.last_ten');
+$api->get('users/{user}/withdrawals/remarks', 'WithdrawalsController@remarkIndex')->name('backstage.users.withdrawals.remarks.index');
+$api->get('users/{user}/withdrawals/adjustments', 'WithdrawalsController@adjustmentIndex')->name('backstage.users.withdrawals.adjustments.index');
+$api->get('withdrawals/{withdrawal}/logs', 'WithdrawalsController@logIndex')->name('backstage.withdrawals.logs');
+$api->get('export/withdrawals/logs', 'WithdrawalsController@exportWithdrawalLogs')->name('backstage.withdrawals.export.logs');

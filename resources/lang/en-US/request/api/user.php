@@ -1,0 +1,20 @@
+<?php
+return [
+    'name'                    => 'member code',
+    'password'                => 'password',
+    'country_code'            => 'country_code',
+    'phone'                   => 'phone',
+    'full_name'               => 'full member code',
+    'email'                   => 'email',
+    'birth_at'                => 'birthday',
+    'address'                 => 'address',
+    'other_contact'           => 'other contact',
+    'referrer_code'           => 'referrer code',
+    'odds'                    => 'odds',
+    'gender'                  => 'gender',
+    'security_question'       => 'security question',
+    'security_question_answer' => 'security question answer',
+    'old_password'            => 'current password',
+    'new_password'            => 'new password',
+    'platform_code_required'  => 'You need to select one wallet to transfer bonus amount.',
+];
