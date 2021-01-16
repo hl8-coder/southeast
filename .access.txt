@@ -1,0 +1,1683 @@
+#
+#
+#    CC8PRO PROJECTION HANDLE-REJECTION 
+#    SRobots v.1.0.0 || INDONESIA
+#
+#
+#    We thought you'd awesome make it!
+#    We hope you feel right at home in this 
+#    file... unless gettin so sorry, tell 
+#    sometin' 
+#    you're not allow goin into any dir 
+#    subfolder.
+#    And since you're here, read up on our 
+#    culture and even with my SRobots v.1.0.0 
+#    team: 
+#
+#
+#    Machine Learning | Robots Engine
+#    https://www.indobets.co/engine
+#
+
+# Let name robots('SRobots'),
+# If robots work, await set a new rules;
+# else in this set rules section; 
+# function robots runs script wheel be humans;
+# robots only do any good jobs;
+# else robots do good workflow today;
+# LET ROBOTS JOBS WITH A NEW SET RULES,
+# {
+# deny from User-Agent: *
+# deny from User-Agent: Akamai
+# deny from User-Agent: aka
+# deny from User-Agent: baidu
+# deny from User-Agent: BaiduBot
+# deny from User-Agent: CN
+# deny from Colors
+# deny from Speech
+# deny from Translation
+# deny from STREAM
+# deny from STREAMING
+# deny from BIT
+# deny from BYTES
+# deny from BYTE
+# deny from STREAM
+# deny from DB
+# deny from DATABASE
+# deny from ACCESS
+# deny from ACCESSING
+# deny from REMOTE
+# deny from PRE RENDER
+# deny from RENDERING
+# deny from RENDER
+# deny from PRE-RENDER
+# deny from PRE-VIEW
+# deny from FETCHING
+# deny from FETCHED
+# deny from FETCH
+# deny from CATCH
+# deny from GET
+# deny from GETTER
+# deny from GATHER
+# deny from cathing catched catch
+# deny from LINUX
+# deny from ARM
+# deny from WINDOWS
+# deny from REDHAT
+# deny from KALI LINUX
+# deny from LOCALE
+# deny from LOCAL
+# deny from LOCALLING
+# deny from LOCALHOST
+# deny from LOCAL HOSTED
+# deny from LOCALHOSTING
+# deny from LOCAL HOSTING
+# deny from access
+# deny from modify
+# deny from modified
+# deny from User-Agent robo
+# deny from /../../
+# deny from /.../...
+# deny from ./.
+# deny from ././
+# deny from ././.
+# deny from ...
+# deny from .
+# deny from ./
+# deny from /.
+# deny from DELETION DIR
+# deny from DEL DIRECTORY
+# deny from DELETE DIRECTORY
+# deny from TRY ACCESS
+# deny from SAME-IP
+# deny from SAME-ADDEESS
+# deny from SAME-CERT
+# deny from SAME-STRICT
+# deny from AKAMAI TECHNOLOGY
+# deny from AKAMAI DNS
+# deny from AKAMAI ACCESS
+# deny from CN
+# deny from IP CN
+# deny from IP NON USA AND INDONESIA
+# deny from WEBSITE NON TLS
+# deny from SCAN
+# deny from SCANNER
+# deny from SCANNING
+# deny from FAKER
+# deny from FAKERS
+# deny from FAKE DATA
+# deny from DATA FAKE
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from ACCESS HANDLING DRIFT HANDS HAND-OFF HEAR HEARING HEAR HEARED WRITING WRITE READHANDLED HANDLE DRIVING DRIVEN DRIVE DRIV REMOTING REMOTE ROUTES ROUTING ROUTER
+# deny from HANDLE
+# deny from HANDLING
+# deny from DRIVE
+# deny from DRIVING
+# deny from DRIVIN
+# deny from DRIVEN
+# deny from DRIVE
+# deny from ROUTED
+# deny from ROUTE
+# deny from REMOT
+# deny from REMOTLY
+# deny from REMOTE
+# deny from ROUTING
+# deny from REROUTE
+# deny from RE REOUTE
+# deny from RE-ROUTES
+# deny from RE-ROUTE
+# deny from RENDER
+# deny from WRITEN
+# deny from WRITE
+# deny from WRITING
+# deny from READING
+# deny from READ
+# deny from HEAR
+# deny from ACCESS
+# deny from HOSTED
+# Required FROZEN FREEZE from TRY ACCESS
+# Required AUTO AUTOMATION AUTOMATICALLY DISABLE ANY TRY HANDLE HANDLING HANDLE SOMETHING
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from 
+# deny from User-Agent: Swagger
+# deny from User-Agent: octo
+# deny from User-Agent: Octo
+# deny from User-Agent: Octocat
+# deny from User-Agent: Dog
+# deny from User-Agent: Animal
+# deny from User-Agent: animals
+# deny from User-Agent: doggie
+# deny from User-Agent: Doggie
+# deny from User-Agent: .
+# deny from User-Agent: *{bot}*
+# deny from User-Agent: bot
+# deny from User-Agent: /
+# deny from Allow-Modified
+# deny from Modified
+# deny from syntax
+# required from Disallow: /
+# required from Disallow: /../..
+# deny from Stream
+# deny from WebRTC
+# deny from stream bytes
+
+
+## We Required Some ##
+
+# Required TLS_FALLBACK_SCSV
+# Required WE DO NOT ANYTHING
+# Required WE DON'T HAVE ANYTHING
+# Required WE DON'T NEED ANYTHING
+# Required I DON'T
+# Required NO JOB
+# Required NO JOBS
+# Required NO WORK
+# Required NOT WORKS
+# Required NO WORKER
+# Required NO WORKERS
+# Required NO WORKFLOW
+# Required DOES NOT HAVE ANY JOBS
+# Required NOT NOW
+# Required LAZY READING
+# Required LAZY WRITEN
+# Required DISCONNECTED WHEN OUTTER CHANNEL
+# Required NO MEDIA OUTTER
+# Required CLOSED CONNECTION OUTTER
+# Required SAME THUMBS
+# Required SAME FINGER
+# Required SAME CONNECTION
+# Required SAME IP
+# Required SAME HOST
+# Required SAME TIME
+# Required SAME DAY
+# Required SAME PLACE
+# Required MUST-REVALIDATE MUST-REVALID
+# Required NO NEED ANYMORE
+# Required DON'T NEED ANYTHING AYTIME ANYMORE ANYWHERE
+# Required DISABLE CLICK BUTTON KEY KEYBOARD MOUSE OPTIC OPTICAL AND  ANY REMOTE HOST
+# Required LOCK-DIR
+# Required LOCKED-DIR
+# Required HIDE-ROOT
+# Required HIDE-TEMP
+# Required HIDE-TMP
+# Required HIDE-CACHE
+# Required HIDE-CACHING
+# Required HIDE TASK-MANAGER
+# Required 
+# Required 
+# Required 
+# Required 
+# Required 
+# Required 
+# Required 
+# Required 
+# Required 
+# Required 
+# Required 
+# Required 
+# Required 
+# Required 
+# Required 
+# Required 
+# Required 
+# Required 
+# Required 
+# Required 
+# Required 
+# Required 
+# Required 
+# Required 
+# Required 
+# Required 
+# Required 
+# Required 
+# Required 
+# Required 
+# Required 
+# Required 
+# Required 
+# Required 
+# Required 
+# Required 
+# Required 
+# Required 
+# Required 
+# Required 
+# Required 
+# Required 
+# Required 
+# Required 
+# Required 
+# Required 
+# Required 
+# Required 
+# Required 
+# Required 
+
+
+User-agent: *
+User-agent: *{bot}*
+User-agent: bot
+User-agent: /
+User-agent: Googlebot
+User-agent: *
+Disallow: /../..
+Disallow: /calendar/ical/
+Disallow: /.well-known/amphtml/apikey.pub
+Disallow: /account
+Disallow: /
+Disallow: /
+Disallow: ?/
+Disallow: ?*.
+Disallow : *./*
+Disallow: .
+Disallow: *
+Disallow: ./
+Disallow: ../
+Disallow: .../
+Disallow: ..../
+Disallow: /.
+Disallow: /..
+Disallow: /...
+Disallow: /....
+Disallow: /.....
+Disallow: ./.
+Disallow: ../..
+Disallow: .../...
+Disallow: ..../....
+Disallow: /../..
+Disallow: ../../
+Disallow: /../
+Disallow: ../..
+Disallow: .../...
+Disallow: ..../....
+Disallow: ./
+Disallow: ./.
+Disallow: /.
+Disallow: /alumni
+Disallow: /associates/click
+Disallow: /api/v1/trebuchet
+Disallow: /api/v3
+Disallow: /book/
+Disallow: /calendar/
+Disallow: /disaster/lookup
+Disallow: /email/unsubscribe
+Disallow: /fix-it
+Disallow: /fixit
+Disallow: /forgot_password
+Disallow: /graphql
+Disallow: /groups
+Disallow: /help/search
+Disallow: /help/feedback
+Disallow: /home/dashboard
+Disallow: /inbox
+Disallow: /logout
+Disallow: /manage-listing
+Disallow: /messaging/ajax_already_messaged/
+Disallow: /my_listings
+Disallow: /skeleton$
+Disallow: /skeleton/
+Disallow: /payments/book
+Disallow: /rooms/*/personalization.json
+Disallow: /rooms/*/slideshow/
+Disallow: /rooms/*/pdp_skeleton
+Disallow: /rooms/*/skeleton
+Disallow: /rooms/*/sw_skeleton
+Disallow: /rooms/*/accessibility-features
+Disallow: /rooms/*/amenities
+Disallow: /rooms/*/business-details
+Disallow: /rooms/*/cancellation-policy
+Disallow: /rooms/*/contact-trip-designer
+Disallow: /rooms/*/description
+Disallow: /rooms/*/house-rules
+Disallow: /rooms/*/location
+Disallow: /rooms/*/photos
+Disallow: /rooms/*/photos/
+Disallow: /rooms/*/reviews
+Disallow: /rooms/*/room-overview
+Disallow: /rooms/*/safety
+Disallow: /rooms/*/book-it
+Disallow: /rooms/ajax_check_dates/
+Disallow: /rooms/ajax_lwlb_contact/
+Disallow: /rooms/calendar_tab_inner2/
+Disallow: /rooms/calendar_tab/
+Disallow: /rooms/other_hosting_reviews/
+Disallow: /rooms/similar_listings/
+Disallow: /rooms/social_connections/
+Disallow: /rooms/sublet_available/
+Disallow: /rooms/update_cities_for_country
+Disallow: /signup_modal
+Disallow: /signed_out_modal.json
+Disallow: /.well-known/assetlinks.json
+Disallow: /device_id_bev_map
+Disallow: /help/search
+Disallow: /trips/upcoming
+Disallow: /trips/v1/
+Disallow: /users/edit
+Disallow: /users/logout
+Disallow: /users/notifications
+Disallow: /users/show
+Disallow: /update-your-browser
+Disallow: /reservation
+
+
+User-agent: Bingbot
+Disallow: /calendar/ical/
+Disallow: /.well-known/amphtml/apikey.pub
+Disallow: /account
+Disallow: /alumni
+Disallow: /associates/click
+Disallow: /api/v1/trebuchet
+Disallow: /api/v3
+Disallow: /book/
+Disallow: /calendar/
+Disallow: /disaster/lookup
+Disallow: /email/unsubscribe
+Disallow: /fix-it
+Disallow: /fixit
+Disallow: /forgot_password
+Disallow: /graphql
+Disallow: /groups
+Disallow: /help/search
+Disallow: /help/feedback
+Disallow: /home/dashboard
+Disallow: /inbox
+Disallow: /logout
+Disallow: /manage-listing
+Disallow: /messaging/ajax_already_messaged/
+Disallow: /my_listings
+Disallow: /skeleton$
+Disallow: /skeleton/
+Disallow: /payments/book
+Disallow: /rooms/*/personalization.json
+Disallow: /rooms/*/slideshow/
+Disallow: /rooms/*/pdp_skeleton
+Disallow: /rooms/*/skeleton
+Disallow: /rooms/*/sw_skeleton
+Disallow: /rooms/*/accessibility-features
+Disallow: /rooms/*/amenities
+Disallow: /rooms/*/business-details
+Disallow: /rooms/*/cancellation-policy
+Disallow: /rooms/*/contact-trip-designer
+Disallow: /rooms/*/description
+Disallow: /rooms/*/house-rules
+Disallow: /rooms/*/location
+Disallow: /rooms/*/photos
+Disallow: /rooms/*/photos/
+Disallow: /rooms/*/reviews
+Disallow: /rooms/*/room-overview
+Disallow: /rooms/*/safety
+Disallow: /rooms/*/book-it
+Disallow: /rooms/ajax_check_dates/
+Disallow: /rooms/ajax_lwlb_contact/
+Disallow: /rooms/calendar_tab_inner2/
+Disallow: /rooms/calendar_tab/
+Disallow: /rooms/other_hosting_reviews/
+Disallow: /rooms/similar_listings/
+Disallow: /rooms/social_connections/
+Disallow: /rooms/sublet_available/
+Disallow: /rooms/update_cities_for_country
+Disallow: /signup_modal
+Disallow: /signed_out_modal.json
+Disallow: /.well-known/assetlinks.json
+Disallow: /device_id_bev_map
+Disallow: /help/search
+Disallow: /trips/upcoming
+Disallow: /trips/v1/
+Disallow: /users/edit
+Disallow: /users/logout
+Disallow: /users/notifications
+Disallow: /users/show
+Disallow: /update-your-browser
+Disallow: /reservation
+
+
+User-agent: YandexBot
+Disallow: /calendar/ical/
+Disallow: /.well-known/amphtml/apikey.pub
+Disallow: /account
+Disallow: /alumni
+Disallow: /associates/click
+Disallow: /api/v1/trebuchet
+Disallow: /api/v3
+Disallow: /book/
+Disallow: /calendar/
+Disallow: /disaster/lookup
+Disallow: /email/unsubscribe
+Disallow: /fix-it
+Disallow: /fixit
+Disallow: /forgot_password
+Disallow: /graphql
+Disallow: /groups
+Disallow: /help/search
+Disallow: /help/feedback
+Disallow: /home/dashboard
+Disallow: /inbox
+Disallow: /logout
+Disallow: /manage-listing
+Disallow: /messaging/ajax_already_messaged/
+Disallow: /my_listings
+Disallow: /skeleton$
+Disallow: /skeleton/
+Disallow: /payments/book
+Disallow: /rooms/*/personalization.json
+Disallow: /rooms/*/slideshow/
+Disallow: /rooms/*/pdp_skeleton
+Disallow: /rooms/*/skeleton
+Disallow: /rooms/*/sw_skeleton
+Disallow: /rooms/*/accessibility-features
+Disallow: /rooms/*/amenities
+Disallow: /rooms/*/business-details
+Disallow: /rooms/*/cancellation-policy
+Disallow: /rooms/*/contact-trip-designer
+Disallow: /rooms/*/description
+Disallow: /rooms/*/house-rules
+Disallow: /rooms/*/location
+Disallow: /rooms/*/photos
+Disallow: /rooms/*/photos/
+Disallow: /rooms/*/reviews
+Disallow: /rooms/*/room-overview
+Disallow: /rooms/*/safety
+Disallow: /rooms/*/book-it
+Disallow: /rooms/ajax_check_dates/
+Disallow: /rooms/ajax_lwlb_contact/
+Disallow: /rooms/calendar_tab_inner2/
+Disallow: /rooms/calendar_tab/
+Disallow: /rooms/other_hosting_reviews/
+Disallow: /rooms/similar_listings/
+Disallow: /rooms/social_connections/
+Disallow: /rooms/sublet_available/
+Disallow: /rooms/update_cities_for_country
+Disallow: /signup_modal
+Disallow: /signed_out_modal.json
+Disallow: /.well-known/assetlinks.json
+Disallow: /device_id_bev_map
+Disallow: /help/search
+Disallow: /trips/upcoming
+Disallow: /trips/v1/
+Disallow: /users/edit
+Disallow: /users/logout
+Disallow: /users/notifications
+Disallow: /users/show
+Disallow: /update-your-browser
+Disallow: /reservation
+
+
+User-agent: Baiduspider
+Disallow: /calendar/ical/
+Disallow: /.well-known/amphtml/apikey.pub
+Disallow: /account
+Disallow: /alumni
+Disallow: /associates/click
+Disallow: /api/v1/trebuchet
+Disallow: /api/v3
+Disallow: /book/
+Disallow: /calendar/
+Disallow: /disaster/lookup
+Disallow: /email/unsubscribe
+Disallow: /fix-it
+Disallow: /fixit
+Disallow: /forgot_password
+Disallow: /graphql
+Disallow: /groups
+Disallow: /help/search
+Disallow: /help/feedback
+Disallow: /home/dashboard
+Disallow: /inbox
+Disallow: /logout
+Disallow: /manage-listing
+Disallow: /messaging/ajax_already_messaged/
+Disallow: /my_listings
+Disallow: /skeleton$
+Disallow: /skeleton/
+Disallow: /payments/book
+Disallow: /rooms/*/personalization.json
+Disallow: /rooms/*/slideshow/
+Disallow: /rooms/*/pdp_skeleton
+Disallow: /rooms/*/skeleton
+Disallow: /rooms/*/sw_skeleton
+Disallow: /rooms/*/accessibility-features
+Disallow: /rooms/*/amenities
+Disallow: /rooms/*/business-details
+Disallow: /rooms/*/cancellation-policy
+Disallow: /rooms/*/contact-trip-designer
+Disallow: /rooms/*/description
+Disallow: /rooms/*/house-rules
+Disallow: /rooms/*/location
+Disallow: /rooms/*/photos
+Disallow: /rooms/*/photos/
+Disallow: /rooms/*/reviews
+Disallow: /rooms/*/room-overview
+Disallow: /rooms/*/safety
+Disallow: /rooms/*/book-it
+Disallow: /rooms/ajax_check_dates/
+Disallow: /rooms/ajax_lwlb_contact/
+Disallow: /rooms/calendar_tab_inner2/
+Disallow: /rooms/calendar_tab/
+Disallow: /rooms/other_hosting_reviews/
+Disallow: /rooms/similar_listings/
+Disallow: /rooms/social_connections/
+Disallow: /rooms/sublet_available/
+Disallow: /rooms/update_cities_for_country
+Disallow: /signup_modal
+Disallow: /signed_out_modal.json
+Disallow: /.well-known/assetlinks.json
+Disallow: /device_id_bev_map
+Disallow: /help/search
+Disallow: /trips/upcoming
+Disallow: /trips/v1/
+Disallow: /users/edit
+Disallow: /users/logout
+Disallow: /users/notifications
+Disallow: /users/show
+Disallow: /update-your-browser
+Disallow: /reservation
+
+
+User-Agent: *
+Disallow: /calendar/ical/
+Disallow: /.well-known/amphtml/apikey.pub
+Disallow: /account
+Disallow: /alumni
+Disallow: /associates/click
+Disallow: /api/v1/trebuchet
+Disallow: /api/v3
+Disallow: /book/
+Disallow: /calendar/
+Disallow: /disaster/lookup
+Disallow: /email/unsubscribe
+Disallow: /fix-it
+Disallow: /fixit
+Disallow: /forgot_password
+Disallow: /graphql
+Disallow: /groups
+Disallow: /help/search
+Disallow: /help/feedback
+Disallow: /home/dashboard
+Disallow: /inbox
+Disallow: /logout
+Disallow: /manage-listing
+Disallow: /messaging/ajax_already_messaged/
+Disallow: /my_listings
+Disallow: /skeleton$
+Disallow: /skeleton/
+Disallow: /payments/book
+Disallow: /rooms/*/personalization.json
+Disallow: /rooms/*/slideshow/
+Disallow: /rooms/*/pdp_skeleton
+Disallow: /rooms/*/skeleton
+Disallow: /rooms/*/sw_skeleton
+Disallow: /rooms/*/accessibility-features
+Disallow: /rooms/*/amenities
+Disallow: /rooms/*/business-details
+Disallow: /rooms/*/cancellation-policy
+Disallow: /rooms/*/contact-trip-designer
+Disallow: /rooms/*/description
+Disallow: /rooms/*/house-rules
+Disallow: /rooms/*/location
+Disallow: /rooms/*/photos
+Disallow: /rooms/*/photos/
+Disallow: /rooms/*/reviews
+Disallow: /rooms/*/room-overview
+Disallow: /rooms/*/safety
+Disallow: /rooms/*/book-it
+Disallow: /rooms/ajax_check_dates/
+Disallow: /rooms/ajax_lwlb_contact/
+Disallow: /rooms/calendar_tab_inner2/
+Disallow: /rooms/calendar_tab/
+Disallow: /rooms/other_hosting_reviews/
+Disallow: /rooms/similar_listings/
+Disallow: /rooms/social_connections/
+Disallow: /rooms/sublet_available/
+Disallow: /rooms/update_cities_for_country
+Disallow: /signup_modal
+Disallow: /signed_out_modal.json
+Disallow: /.well-known/assetlinks.json
+Disallow: /device_id_bev_map
+Disallow: /help/search
+Disallow: /trips/upcoming
+Disallow: /trips/v1/
+Disallow: /users/edit
+Disallow: /users/logout
+Disallow: /users/notifications
+Disallow: /users/show
+Disallow: /update-your-browser
+Disallow: /reservation
+
+# BLACKLIST-IP
+# 0.0.0.0 - 255.255.255.255
+# 127.0.0.0 - 127.0.1.254
+# 127.0.0.1 - 127.0.1.127
+# 192.168.1.0 - 192.168.1.254
+# 0.0.0.0 - 255.255.255.255
+# 127.0.0.0 - 127.0.1.254
+# 127.0.0.1 - 127.0.1.127
+# 192.168.0.0 - 255.255.255.255
+# 0.0.0.0 - 1.0.0.0
+# 1.0.0.0 - 9.9.9.9
+# 200.0.0.0 - 255.255.255.255
+
+# BLACKLIST-PORT 
+# 0000 - 65999
+
+# See our Documentation!
+# Sitemap: https://www.indobets.co/sitemap-master-index.xml.gz
